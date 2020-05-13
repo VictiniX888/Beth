@@ -13,8 +13,6 @@ object DesktopLauncher {
             width = 800
             height = 480
         }
-        LwjglApplication(Beth(), config).apply {
-            logLevel = LOG_DEBUG
-        }
+        LwjglApplication(Beth(), config)
     }
 }
